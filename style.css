@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #242536;
+  color: #fbfaf5;
+  width: 370px;
+  height: 300px;
+  margin: 50px auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.scoreBoardText {
+  display: flex;
+  flex-direction: row;
+  text-decoration: underline;
+  justify-content: space-evenly;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.wins {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.wins #playerWins {
+  margin-right: 55px;
+}
+
+.wins #computerWins {
+  margin-right: 19px;
+}
+
+.gameText {
+  margin-bottom: 10px;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.choiceBtn {
+  width: 115px;
+  height: 25px;
+  color: #242536;
+  background-color: #fbfaf5;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+}
+
+.choiceBtn:hover {
+  background-color: #fbfaf5e7;
+}
+
+.choiceBtn:active {
+  border: 1px solid #242536;
+}
